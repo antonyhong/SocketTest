@@ -1,0 +1,3 @@
+F:\dev\workplaceC\SocketTest\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+F:\dev\workplaceC\SocketTest\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+F:\dev\workplaceC\SocketTest\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.Cache
