@@ -1,1 +1,8 @@
 F:\dev\workplaceC\SocketTest\SocketTest\bin\Debug\SocketTest.exe.config
+F:\dev\workplaceC\SocketTest\SocketTest\bin\Debug\SocketTest.exe
+F:\dev\workplaceC\SocketTest\SocketTest\bin\Debug\SocketTest.pdb
+F:\dev\workplaceC\SocketTest\SocketTest\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+F:\dev\workplaceC\SocketTest\SocketTest\obj\Debug\SocketServer.Properties.Resources.resources
+F:\dev\workplaceC\SocketTest\SocketTest\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+F:\dev\workplaceC\SocketTest\SocketTest\obj\Debug\SocketTest.exe
+F:\dev\workplaceC\SocketTest\SocketTest\obj\Debug\SocketTest.pdb

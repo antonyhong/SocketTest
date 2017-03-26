@@ -12,24 +12,24 @@ namespace SocketServer
     {
         static void Main(string[] args)
         {
-            if (args.Length != 1)
+            string inArg;
+            int port =0;
+            while ((inArg= Console.ReadLine()) .Equals("Q"))
             {
-                ShowUsage();
-                return;
+                if (!int.TryParse(args[0], out port))
+                {
+                    ShowUsage();
+                }
+                break;
             }
-            int port;
-            if (!int.TryParse(args[0], out port))
-            {
-                ShowUsage();
-                return;
-            }
+           
             Listener(port);
             System.Console.ReadLine();
         }
 
         private static void ShowUsage()
         {
-            System.Console.WriteLine("SocketServer port");
+            System.Console.WriteLine("Input SocketServer port(Q for quit):");
         }
 
         public static void Listener(int port)

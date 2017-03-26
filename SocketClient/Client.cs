@@ -12,21 +12,22 @@ namespace SocketClient
     {
         static void Main(string[] args)
         {
-            if (args.Length != 2)
-            {
-                ShowUsage();
-                return;
-            }
+            //if (args.Length != 2)
+            //{
+            //    ShowUsage();
+            //    return;
+            //}
+            //string hostName = args[0];
+            //int port;
+            //if (!int.TryParse(args[1], out port))
+            //{
+            //    ShowUsage();
+            //    return;
+            //}
+            //Console.WriteLine("press return when the server is started");
+            //Console.ReadLine();
             string hostName = args[0];
-            int port;
-            if (!int.TryParse(args[1], out port))
-            {
-                ShowUsage();
-                return;
-            }
-            Console.WriteLine("press return when the server is started");
-            Console.ReadLine();
-
+            int port = 2112;
             SendAndReceive(hostName, port).Wait();
             Console.ReadLine();
             
